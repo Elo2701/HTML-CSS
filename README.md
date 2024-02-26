@@ -34,8 +34,11 @@ Can be placed as the first or last child within the <figure> element.
 Only the first encountered <figcaption> is considered the caption for the figure
 EXAMPLE FOR <FIGURE> AND <FIGCAPTION>
 <figure>
-  <img src=<!--"image.PNG" alt="A beautiful sunset"-->>
+  <img src=" " alt="  ">
   <figcaption>This is a stunning sunset over the ocean.</figcaption>
 </figure>
 UNIT :WORKING WITH VIDEO
 Adding audio to your webpage is achieved through the <audio> element. This element allows you to specify the audio source using the src attribute, and includes controls for playback like play, pause, and volume by default. You can also provide alternative text for accessibility using the alt attribute. Additionally, consider including multiple source files with different formats to ensure wider browser compatibility. Remember to optimize your audio files for web delivery to balance quality and file size for a smooth user experience.
+The video element allows you to specify the video source using the src attribute, similar to how images are embedded. Also, you can provide captions for accessibility using the <track> element, and control playback behavior with attributes like autoplay and controls. While the basic implementation is straightforward, working with video often involves managing aspects like video formats, codecs, and potential browser compatibility issues, ensuring a smooth viewing experience for 
+Embedding Mdeia via iframe:
+Iframes allow you to embed external content, like videos, maps, or even entire webpages, directly into your own webpage. This is done by creating an <iframe> element and specifying the source URL of the content you want to embed using the src attribute. While iframes offer flexibility, they come with potential drawbacks like reduced control over the embedded content and security concerns. It's crucial to only embed content from trusted sources and consider alternative methods like native HTML elements or APIs when appropriate.

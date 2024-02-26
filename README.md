@@ -9,3 +9,33 @@ URL Types:Absolute URLs: Include the entire web address (e.g., https://example.c
 HTTPS vs. HTTP: HTTPS provides better security and is recommended.
 Links can be inline or wrapped around various elements.
 URLs can be more complex than just the basic format
+Working with images: Use the <img> element to display an image.
+Four attributes are crucial: src: Specifies the image file location (URL).
+alt: Provides alternative text for accessibility and SEO.
+width: Sets the image width in pixels.
+height: Sets the image height in pixels.
+Use GIF for animations and simple graphics.
+Use SVG for logos, icons, and scalable graphics.
+Use JPG for photographs and images where slight quality loss is acceptable.
+Use PNG for graphics with sharp details, text, and screenshots.
+
+The <figure> and <figcaption> elements in HTML work together to provide a semantic way to associate a figure (like an image, diagram, or code snippet) with its caption. 
+
+<figure> element:
+
+Represents a self-contained content, typically visual, that is related to the main flow of the document.
+Can be moved or removed without affecting the document's overall structure.
+Often used for images, illustrations, diagrams, code listings, etc.
+<figcaption> element:
+
+Provides a caption or legend describing the content within its parent <figure> element.
+Improves accessibility by offering alternative text for screen readers and other assistive technologies.
+Can be placed as the first or last child within the <figure> element.
+Only the first encountered <figcaption> is considered the caption for the figure
+EXAMPLE FOR <FIGURE> AND <FIGCAPTION>
+<figure>
+  <img src="image.jpg" alt="A beautiful sunset">
+  <figcaption>This is a stunning sunset over the ocean.</figcaption>
+</figure>
+UNIT :WORKING WITH VIDEO
+Adding audio to your webpage is achieved through the <audio> element. This element allows you to specify the audio source using the src attribute, and includes controls for playback like play, pause, and volume by default. You can also provide alternative text for accessibility using the alt attribute. Additionally, consider including multiple source files with different formats to ensure wider browser compatibility. Remember to optimize your audio files for web delivery to balance quality and file size for a smooth user experience.

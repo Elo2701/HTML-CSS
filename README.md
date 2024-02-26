@@ -34,7 +34,7 @@ Can be placed as the first or last child within the <figure> element.
 Only the first encountered <figcaption> is considered the caption for the figure
 EXAMPLE FOR <FIGURE> AND <FIGCAPTION>
 <figure>
-  <img src="image.jpg" alt="A beautiful sunset">
+  <img src="image.PNG" alt="A beautiful sunset">
   <figcaption>This is a stunning sunset over the ocean.</figcaption>
 </figure>
 UNIT :WORKING WITH VIDEO

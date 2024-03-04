@@ -1,13 +1,7 @@
 # HTML-CSS
 <<<<<<< HEAD
 
-<!DOCTYPE html>
-<html>
-<head>
-</head>
-<body>
 
-<p>
 HTML stands for HyperText Markup Language, html is used for creating websites. Most tech people refer html as a skeleton because it does not make decorations it needs help from CSS to make decorations nor make the website function where it needs javascript to make the website fuction.HTML is not case sensitive but we prefer structure of the html code to be written in capital lettters and content in both capital letters and small letters.
 In text formating we have to types of tags known as opening tag and closing tag. HTML contain element components known as opening tag,content,and closing tag.HTML has text types known as bold, italic, strong,underline,subscription,superscription, etc. Subscript is used to write che  e.g H2O, and Superscript is used to write in powers e.g 2^3.HTML headlines known as h1,h2,h3,h4,h5,and h6 have different size , h1 is the largest and h6 is the smallest.In paragraphs we have no p1,p2,p3,p4,p5,p6 we only use p.HTML listing only contains 3 elements known as ordered list where list will be numbered, unordered list where list will be in bullet form and definition list where list will be defining term, defining descrition or defifining the list.
 HTML QUOTES: there is a difference between q and blockqoute, q is for content(sensentence) to be written inside double qoutes and blockqoutes is for adding space before the sentence.
@@ -55,6 +49,13 @@ Iframes allow you to embed external content, like videos, maps, or even entire w
 You can achieve this using the lang attribute on various elements, like the <html> tag for the entire document or specific elements like paragraphs or headings. Additionally, you can specify character encoding using the charset meta tag to ensure proper display of different languages. By following these practices, you can create webpages that cater to a wider audience and function seamlessly across diverse language contexts.
  
 Both <div> and <span> elements are generic building blocks in HTML, but they serve different purposes. <div> is a block-level element, meaning it starts on a new line and takes up the full available width. It's commonly used to group content into sections, like paragraphs, headers, or navigation menus. On the other hand, <span> is an inline element, flowing with surrounding text and only occupying the space needed for its content. It's often used for styling a specific portion of text, like highlighting keywords or adding emphasis. While these elements lack inherent meaning, they offer flexibility in organizing and styling web page elements.<p>
-<h2>Introduction to css</h2>
-</body>
-</html>
+Introduction to css
+  CSS stands for Cascading Style Sheets, CSS is a simply designed language used to simplify the process of making web pages presentable. 
+    CSS allows you to apply styles to HTML documents. It describes how a webpage should look.
+    It prescribes colors, fonts, spacing, etc. In short, you can make your website look however you want. 
+    CSS lets developers and designers define how it behaves, including how elements are positioned in the browser.
+     HTML uses tags and CSS uses rulesets. CSS styles are applied to the HTML element using selectors.
+    CSS is easy to learn and understand, but it provides powerful control over the presentation of an HTML document.
+    
+
+
